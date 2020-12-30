@@ -167,7 +167,7 @@ const steps: LocalizedSteps = {
     action: '如果您已将 TypeScript 配置为严格(如果在 `tsconfig.json` 文件中将 `strict` 设置为 `true`)，请更新 `tsconfig.json` 以禁用 `strictPropertyInitialization` 或将属性初始化从 `ngOnInit` 中移到构造函数。您可以在<a href="https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-7.html#strict-class-initialization"> TypeScript 2.7 发行说明</a>了解有关此的更多信息。'
   },
   'update to RxJS 6': {
-    action: '移除 RxJS 5 不推荐使用的功能使用 <a href="https://github.com/ReactiveX/rxjs-tslint" target="_blank">rxjs-tslint</a> 自动更新规则<br/>在大多数应用程序中，这需要运行以下两个命令:<br/>`npx rxjs-tslint`<br/>`rxjs-5-to-6-migrate -p src/tsconfig.app.json`'
+    action: '移除 RxJS 5 不推荐使用的功能使用 <a href="https://github.com/ReactiveX/rxjs-tslint" target="_blank">rxjs-tslint</a> 自动更新规则<br/>在大多数应用程序中，这需要运行以下两个命令:<br/>`npx rxjs-tslint -p src/tsconfig.app.json`<br/>`rxjs-5-to-6-migrate -p src/tsconfig.app.json`'
   },
   'remove rxjs-compat': {
     action: '一旦所有依赖更新到 RxJS 6，请移除 `rxjs-compat`.'

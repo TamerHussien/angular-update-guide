@@ -175,7 +175,7 @@ const steps: LocalizedSteps = {
   },
   'update to RxJS 6': {
     action:
-      'Gỡ bỏ các chức năng không còn được hỗ trợ của RxJS 5 bằng <a href="https://github.com/ReactiveX/rxjs-tslint" target="_blank">rxjs-tslint auto update rules</a><br/><br/>Đối với phần lớn các ứng dụng, việc này đồng nghĩa với việc 2 câu lệnh sau được thực thi: <br/><br/>`npx rxjs-tslint`<br/>`rxjs-5-to-6-migrate -p src/tsconfig.app.json`'
+      'Gỡ bỏ các chức năng không còn được hỗ trợ của RxJS 5 bằng <a href="https://github.com/ReactiveX/rxjs-tslint" target="_blank">rxjs-tslint auto update rules</a><br/><br/>Đối với phần lớn các ứng dụng, việc này đồng nghĩa với việc 2 câu lệnh sau được thực thi: <br/><br/>`npx rxjs-tslint -p src/tsconfig.app.json`<br/>`rxjs-5-to-6-migrate -p src/tsconfig.app.json`'
   },
   'remove rxjs-compat': {
     action: 'Một khi ứng dụng và các thư viện liên quan đến ứng dụng của bạn đã được update lên RxJS 6, gỡ bỏ `rxjs-compat`.',
